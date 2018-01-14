@@ -1,17 +1,151 @@
-.about {
-  width: 80%;
+body, html {
+  height: 100%;
+}
+
+#skills {
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
- background-color: red;
+ /* The image used */
+    background-image: url("img/first.JPG");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ 
+}
+
+.skills-text {
+  font-family: impact;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  padding-top: 50px;
+  opacity: 0.6;
 }
 
 #demo {
   margin: 0 auto;
-  width: 60%;
+  width: 90%;
 
 }
 
 .sliding {
+  padding-top: 20px;
   margin: 0 auto;
   width: 100%;
-  max-height: 400px;
+  max-height: 600px;
+}
+
+
+
+.home-bg {
+  /* The image used */
+    background-image: url("img/about-bg.PNG");
+    color: white;
+  opacity: 0.8;
+    /* Full height */
+    height: 100%; 
+    font-family: impact;
+    font-size: 100px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#heading {
+  
+  padding-top: 13%;
+
+}
+
+.about-bg {
+  /* The image used */
+    background-image: url("img/about-me.JPG");
+    color: white;
+  
+    /* Full height */
+    height: 100%; 
+    font-family: impact;
+    font-size: 100px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#contact {
+  height: 100%;
+   width: 100%;
+  margin: 0 auto;
+  min-height: 600px;
+   background-image: url(img/about-bg.PNG);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contact-text {
+  font-size: 50px;
+  font-family: impact;
+  padding: 50px;
+  color: white;
+  opacity: 0.9;
+}
+
+a.contact-link {
+  text-decoration: none;
+  font-size: 35px;
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+
+}
+
+a.contact-link:hover {
+opacity: 0.6;
+
+}
+
+@media screen and (max-width: 480px) {
+    #about {
+      margin-top: 0px;
+      background-color: black;
+      min-height: 200px;
+      width: 100%;
+    }
+       
+#skills {
+  
+  width: 100%;
+  margin: 0 auto;
+ /* The image used */
+    background-image: url("img/first.JPG");
+
+    /* Full height */
+    height: 65%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ 
+}
+
+.transparent {
+  color: #d4af37;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+
 }
