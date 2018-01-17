@@ -1,11 +1,13 @@
+
+
+@media screen and (min-width: 768px) {
+    
+       
 body, html {
   height: 100%;
 }
 
-.navi {
-  padding-right: 80px;
 
-}
 
 #skills {
   height: 100%;
@@ -52,6 +54,7 @@ body, html {
 .home-bg {
   /* The image used */
     background-image: url("runpe30.github.io/img/about-bg.png");
+    
     color: white;
   opacity: 0.8;
     /* Full height */
@@ -125,98 +128,121 @@ opacity: 0.6;
 
 }
 
-@media screen and (max-width: 480px) {
-    
-       
-#skills {
-  
-  width: 125%;
-  margin: 0 auto;
- /* The image used */
-    background-image: url("runpe30.github.io/img/first.jpg");
-
-    /* Full height */
-    height: 75%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
- 
-}
-
-#about {
-  
-  width: 125%;
-  margin: 0 auto;
- /* The image used */
-    background-image: url("runpe30.github.io/img/about-me.jpg");
-
-    /* Full height */
-    height: 100%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
- 
-}
-
-.home-bg {
-  
-  width: 125%;
-  margin: 0 auto;
- /* The image used */
-    background-image: url("runpe30.github.io/img/about-bg.png");
-
-    /* Full height */
-    height: 110%;
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
- 
-}
-
-#contact {
-  
-  width: 125%;
-  margin: 0 auto;
- /* The image used */
-    background-image: url("runpe30.github.io/img/contact.jpg");
-
-    /* Full height */
-    
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-
- 
-}
-
-.contact-text {
-  padding-top: 90px;
-}
-
 .bigger {
-  display: none;
-}
-
-.mobile {
   display: block;
 }
+
+
+ 
 
 
 .transparent {
   color: #d4af37;
   opacity: 0.8;
   font-weight: bold;
+}
+
+
+}
+
+
+
+
+ 
+
+@media screen and (max-width: 767px) {
+
+#home {
+  background-image: url("runpe30.github.io/img/about-bg.png");
+  margin: 0 auto;
+    position: relative;
+    padding: 0 0 120px 0;
+    width: 100%;
+    background-size: cover;
+    color: white;
+  opacity: 0.8;
+font-family: impact;
+    font-size: 50px;
+    padding-top: 25%;
+}
+
+#about {
+  background-image: url("runpe30.github.io/img/about-me.jpg");
+  margin: 0 auto;
+    position: relative;
+    padding: 0 0 200px 0;
+    width: 100%;
+    background-size: cover;
+    color: white;
+font-family: impact;
+    font-size: 50px;
+}
+
+#skills {
+  background-image: url("runpe30.github.io/img/first.jpg");
+  margin: 0 auto;
+    position: relative;
+    padding: 0 0 80px 0;
+    width: 100%;
+    background-size: cover;
+}
+
+.skills-text {
+  font-family: impact;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  padding-top: 50px;
+  opacity: 0.6;
+}
+
+.sliding {
+  padding-top: 20px;
+  margin: 0 auto;
+  width: 100%;
+  max-height: 170px;
+
+}
+
+.transparent {
+  color: #d4af37;
+  opacity: 0.8;
+  font-weight: bold;
+}
+
+#contact {
+background-image: url("runpe30.github.io/img/contact.jpg");
+  margin: 0 auto;
+    position: relative;
+    padding: 0 0 160px 0;
+    width: 100%;
+    background-size: cover;
+}
+
+.contact-text {
+  font-size: 50px;
+  font-family: impact;
+  padding: 70px;
+  color: black;
+  opacity: 0.9;
+}
+
+a.contact-link {
+  text-decoration: none;
+  font-size: 35px;
+  font-family: monospace;
+  font-weight: bold;
+  color: black;
+
+}
+
+a.contact-link:hover {
+opacity: 0.6;
+
+}
+
+.bigger {
+  display: none;
 }
 
 
